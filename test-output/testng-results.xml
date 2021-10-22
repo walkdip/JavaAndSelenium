@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CrossBrowserTesting" duration-ms="26999" started-at="2021-10-21T21:38:30Z" finished-at="2021-10-21T21:38:57Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="18533" started-at="2021-10-21T21:38:30Z" finished-at="2021-10-21T21:38:48Z">
+      <class name="selenium.CrossBrowserTesting">
+        <test-method status="PASS" signature="start(java.lang.String)[pri:0, instance:selenium.CrossBrowserTesting@77f03bb1]" name="start" is-config="true" duration-ms="6425" started-at="2021-10-21T17:38:30Z" finished-at="2021-10-21T17:38:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="test()[pri:0, instance:selenium.CrossBrowserTesting@77f03bb1]" name="test" duration-ms="5737" started-at="2021-10-21T17:38:36Z" finished-at="2021-10-21T17:38:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="end()[pri:0, instance:selenium.CrossBrowserTesting@77f03bb1]" name="end" is-config="true" duration-ms="6357" started-at="2021-10-21T17:38:42Z" finished-at="2021-10-21T17:38:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- selenium.CrossBrowserTesting -->
+    </test> <!-- ChromeTest -->
+    <test name="FireFoxTest" duration-ms="26999" started-at="2021-10-21T21:38:30Z" finished-at="2021-10-21T21:38:57Z">
+      <class name="selenium.CrossBrowserTesting">
+        <test-method status="PASS" signature="start(java.lang.String)[pri:0, instance:selenium.CrossBrowserTesting@2b80d80f]" name="start" is-config="true" duration-ms="17201" started-at="2021-10-21T17:38:30Z" finished-at="2021-10-21T17:38:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="test()[pri:0, instance:selenium.CrossBrowserTesting@2b80d80f]" name="test" duration-ms="1429" started-at="2021-10-21T17:38:47Z" finished-at="2021-10-21T17:38:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="end()[pri:0, instance:selenium.CrossBrowserTesting@2b80d80f]" name="end" is-config="true" duration-ms="8364" started-at="2021-10-21T17:38:48Z" finished-at="2021-10-21T17:38:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- selenium.CrossBrowserTesting -->
+    </test> <!-- FireFoxTest -->
+  </suite> <!-- CrossBrowserTesting -->
+</testng-results>
